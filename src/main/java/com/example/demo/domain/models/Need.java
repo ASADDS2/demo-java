@@ -17,7 +17,7 @@ public class Need {
         this.description = description;
         this.category = category;
         this.status = status;
-        this.requesterId = requesterId;
+        this.requesterId = userID;
     }
 
     public Long getId() {
